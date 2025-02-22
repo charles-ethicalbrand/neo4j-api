@@ -1,0 +1,28 @@
+{
+  "name": "neo4j-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-api": "node sync-files/sync.js",
+    "start-worker": "node sync-files/sync-worker.js",
+    "dev": "concurrently \"npm run start-api\" \"npm run start-worker\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.12.0",
+    "neo4j-driver": "^5.28.0",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
