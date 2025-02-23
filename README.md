@@ -58,3 +58,9 @@ Bulk creates relationships between nodes in the Neo4j database.
   ]
 }
 ```
+
+Links to Sample json file
+<br><a href="https://github.com/charles-ethicalbrand/neo4j-api/blob/main/sample_100_companies.json"> Companies </a>
+<br><a href="https://github.com/charles-ethicalbrand/neo4j-api/blob/main/sample_100_posts.json"> Posts </a>
+<br><a href="https://github.com/charles-ethicalbrand/neo4j-api/blob/main/sample_100_relationships.json"> Relationships </a>
+<br><a href="https://github.com/charles-ethicalbrand/neo4j-api/blob/main/sample_100_users.json"> Users </a>
